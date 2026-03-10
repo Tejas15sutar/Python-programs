@@ -1,0 +1,10 @@
+def is_palindrome(s):
+    rev = ""
+    for ch in s:
+        rev = ch + rev
+    if s == rev:
+        return "palindrome"
+    else:
+        return "not palindrome"
+print(is_palindrome("python"))
+print(is_palindrome("madam"))
