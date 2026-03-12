@@ -1,0 +1,5 @@
+def S_largest(nums):
+    nums = list(set(nums))
+    nums.sort()
+    return nums[-2]
+print(S_largest([23,4,7,78,90]))
