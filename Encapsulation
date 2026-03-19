@@ -1,0 +1,13 @@
+class Student:
+    def __init__(self):
+        self.__marks = 50   # private variable
+
+    def show_marks(self):
+        print("Marks:", self.__marks)
+
+
+s1 = Student()
+
+# Access using method
+s1.show_marks()
+
