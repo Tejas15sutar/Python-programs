@@ -1,0 +1,6 @@
+def gen():
+    for i in range(5):
+        yield i
+
+for num in gen():
+    print(num)
