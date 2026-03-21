@@ -2,4 +2,4 @@ def s_largest(nums):
     nums = list(set(nums))
     nums.sort()
     return nums[-2]
-print(s_largest([12,45,6,73,78])
+print(s_largest([12,45,6,73,90,78])
