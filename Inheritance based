@@ -1,0 +1,24 @@
+class Employee:
+    def __init__(self, name, basic_salary):
+        self.name = name
+        self.basic_salary = basic_salary
+
+    def display_details(self):
+        # Write your code here
+        pass
+
+
+class Developer(Employee):
+    def __init__(self, name, basic_salary, bonus):
+        # Initialize parent class attributes
+        # Add bonus attribute
+        pass
+
+    def calculate_salary(self):
+        # Return basic_salary + bonus
+        pass
+
+
+dev = Developer("Tejas", 30000, 5000)
+
+# Call the required methods here
