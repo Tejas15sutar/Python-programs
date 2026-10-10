@@ -1,0 +1,25 @@
+class Vehicle:
+    def __init__(self, brand, speed):
+        self.brand = brand
+        self.speed = speed
+
+    def display_info(self):
+        # Display brand and speed
+        pass
+
+
+class Car(Vehicle):
+    def __init__(self, brand, speed, fuel_type):
+        # Initialize parent attributes using super()
+        # Initialize fuel_type
+        pass
+
+    def display_car(self):
+        # Display all car details
+        pass
+
+
+car1 = Car("Tata", 180, "Petrol")
+
+car1.display_info()
+car1.display_car()
