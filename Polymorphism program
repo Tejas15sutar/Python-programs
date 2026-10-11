@@ -1,0 +1,23 @@
+class Payment:
+    def make_payment(self):
+        # Write your code here
+        pass
+
+
+class CreditCard(Payment):
+    def make_payment(self):
+        # Override the parent method
+        pass
+
+
+class UPI(Payment):
+    def make_payment(self):
+        # Override the parent method
+        pass
+
+
+payment1 = CreditCard()
+payment2 = UPI()
+
+payment1.make_payment()
+payment2.make_payment()
