@@ -1,0 +1,15 @@
+numbers = [2, 3, 10, 6, 4, 8, 1]
+
+minimum = numbers[0]
+max_difference = float('-inf')
+
+for num in numbers[1:]:
+    difference = num - minimum
+
+    if difference > max_difference:
+        max_difference = difference
+
+    if num < minimum:
+        minimum = num
+
+print(max_difference)
